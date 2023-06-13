@@ -1,0 +1,341 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    align-self: center;
+}
+
+a:hover {
+    opacity: 0.7;
+    transition: 0.4s ease-in-out;
+    color: lightgrey;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.card-text {
+    padding: 3px;
+}
+
+.m {
+    margin-top: 20px;
+}
+
+.m>h5.card-title {
+    margin-bottom: 0;
+}
+
+.cs {
+    padding: 14px;
+    box-shadow: 4px 4px 14px 0px rgb(0 0 0 / 20%);
+    border: none;
+    border-radius: 20px;
+}
+
+.css {
+    padding: 38px 14px;
+    box-shadow: 4px 4px 14px 0px rgb(0 0 0 / 20%);
+    border: none;
+    border-radius: 20px;
+}
+
+.bl {
+    padding: 0;
+}
+
+.item {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.item::before {
+    content: "•";
+    color: dodgerblue;
+    margin-right: 5px;
+}
+
+@media screen and (min-width: 800px) {
+    .top-header {
+        padding: 5px 20px;
+        display: flex;
+    }
+
+    .fa-facebook,
+    .fa-twitter,
+    .fa-instagram {
+        color: white;
+    }
+
+    .logo {
+        width: 50%;
+        text-align: left;
+    }
+
+    .header--no {
+        font-size: 20px;
+        align-self: center;
+        margin-right: 15px;
+    }
+
+    .header--button {
+        color: white;
+        border-radius: 30px;
+        padding: 5px 20px;
+    }
+
+    .homepage--img {
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+            url('images/homepage2.jpeg');
+        max-width: 1366px;
+        height: 670px;
+    }
+
+    .info>.row>.col>h2 {
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    .b {
+        font-size: 22px;
+    }
+
+    .p1 {
+        font-size: 18px;
+    }
+
+    .p2 {
+        font-size: 16px;
+    }
+
+    .data {
+        margin-left: 120px;
+        width: 370px;
+        color: black;
+    }
+
+    .data>form {
+        background-color: white;
+        padding: 40px 20px;
+        border-radius: 10px;
+    }
+
+    .form-control {
+        padding: .5rem 1rem;
+    }
+
+    .q {
+        font-size: 1.3rem;
+    }
+
+    .input-group-addon {
+        align-self: center;
+        margin-right: 12px;
+    }
+
+    .f>.card {
+        width: 300px;
+    }
+
+    .f {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .ff {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .why {
+        margin-left: 5vw;
+        margin-right: 15px;
+    }
+
+    .si {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .css>p {
+        font-size: 26px;
+        margin-bottom: 0;
+    }
+
+    .csss {
+        padding: 0;
+        box-shadow: 4px 4px 14px 0px rgb(0 0 0 / 20%);
+        border: none;
+        border-radius: 20px;
+    }
+
+    .ii {
+        padding: 25px;
+    }
+
+    .booking {
+        max-width: 1366px;
+        height: 500px;
+        background-image: linear-gradient(rgba(50, 0, 50, 0.4), rgba(50, 0, 50, 0.4)),
+            url('images/doctor-writing3.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left {
+        font-size: 16px;
+    }
+
+    .right {
+        margin-left: 160px;
+    }
+
+    .right>img {
+        width: 350px;
+    }
+
+    .ques>.r {
+        margin-left: 90px;
+    }
+
+    .mm {
+        margin: 0;
+    }
+
+    .r>img {
+        width: 350px;
+    }
+
+    .partner {
+        background-color: gainsboro;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .partner>h1 {
+        padding-top: 35px;
+    }
+
+    .hosp {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .hosp>img {
+        width: 180px;
+        margin-bottom: 35px;
+    }
+
+    .service {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly
+    }
+
+    .each {
+        width: 270px;
+        height: 320px;
+    }
+
+    .each>img {
+        width: 280px;
+    }
+
+    .each>p {
+        position: relative;
+        top: -150px;
+        left: 40px;
+        font-size: 23px;
+        font-weight: bold;
+    }
+
+    .quote {
+        width: 55px;
+    }
+
+    .tests {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tests>p {
+        width: 70%;
+    }
+
+    .accordion-body {
+        font-size: 16px;
+    }
+
+    .accordion-button {
+        height: 70px;
+    }
+
+    .start {
+        background-image: linear-gradient(rgba(0, 35, 100, 0.8), rgba(0, 35, 100, 0.8)), url('images/nurse2.png');
+        max-width: 1366px;
+        height: 630px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        align-items: center;
+        color: white;
+    }
+
+    .dataa {
+        width: 390px;
+        justify-content: center;
+    }
+
+    .dataa>form {
+        background-color: white;
+        padding: 40px 20px;
+        border-radius: 10px;
+        color: black;
+    }
+
+    .cadd {
+        border-right: 2px solid;
+        margin-top: 100px;
+        height: 160px;
+    }
+
+    .badd {
+        margin-top: 100px;
+    }
+
+    .con {
+        margin-top: 55px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

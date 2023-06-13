@@ -1,0 +1,404 @@
+@media screen and (max-width: 500px) {
+    .top-header {
+        padding: 0 20px;
+        display: flex;
+        font-size: 13px;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+    }
+
+    .navbar-nav>li {
+        margin-right: 7px;
+    }
+
+    .fa-facebook,
+    .fa-twitter,
+    .fa-instagram {
+        color: white;
+    }
+
+    .logo {
+        width: 90%;
+    }
+
+    .a {
+        margin-top: 7px;
+    }
+
+    .header--no {
+        align-self: center;
+        width: 100px;
+        margin-right: 10px !important;
+        font-size: 12px;
+    }
+
+    .header--button {
+        color: white;
+        border-radius: 30px;
+        margin-left: 10px;
+        padding: 5px 20px;
+        font-size: 10px;
+    }
+
+    .homepage--img {
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+            url('images/homepage3.jpeg');
+        max-width: 500px;
+        height: 600px;
+    }
+
+    .info {
+        position: relative;
+        max-width: 600px;
+    }
+
+    .info>.row>.col>h2 {
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .info>.row>.col>a {
+        font-size: 10px;
+    }
+
+    .p1 {
+        font-size: 16px;
+    }
+
+    .item {
+        font-size: 12px;
+    }
+
+    .p2 {
+        font-size: 10px;
+        margin-bottom: 0;
+    }
+
+    .ce {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .data {
+        width: 250px;
+        color: black;
+    }
+
+    .data>form {
+        background-color: white;
+        padding: 20px 20px;
+        border-radius: 10px;
+    }
+
+    .form-control {
+        padding: 3px 3px;
+    }
+
+    .b {
+        font-size: 14px;
+    }
+
+    .c {
+        font-size: 10px;
+        margin-bottom: 0;
+    }
+
+    .q {
+        font-size: 12px;
+    }
+
+    .input-group-addon {
+        align-self: center;
+        margin-right: 10px;
+    }
+
+    .input-group {
+        font-size: 12px;
+    }
+
+    .f {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .f>.card {
+        margin-bottom: 20px;
+    }
+
+    .card-title {
+        font-size: 16px;
+    }
+
+    .card-text {
+        font-size: 14px;
+    }
+
+    .ff {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .why {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cs {
+        padding: 14px;
+        box-shadow: 4px 4px 14px 0px rgb(0 0 0 / 20%);
+        border: none;
+        border-radius: 20px;
+    }
+
+    .css {
+        padding: 35px 14px;
+    }
+
+    .css>p {
+        margin-bottom: 0;
+        font-size: 18px;
+    }
+
+    .csss {
+        margin-top: 20px;
+        box-shadow: 4px 4px 14px 0px rgb(0 0 0 / 20%);
+        border: none;
+        border-radius: 20px;
+    }
+
+    .sii {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .si {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .si>.card {
+        margin-top: 20px;
+    }
+
+    .si>.cs {
+        padding: 0;
+    }
+
+    .ok>.ff>.card>img {
+        width: 200px;
+    }
+
+    .ii {
+        padding: 15px;
+    }
+
+    .border>h3 {
+        font-size: 14px;
+    }
+
+    .s {
+        font-size: 26px;
+    }
+
+    .booking {
+        max-width: 500px;
+        height: 250px;
+        background-image: linear-gradient(rgba(50, 0, 50, 0.4), rgba(50, 0, 50, 0.4)),
+            url('images/doctor-writing.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .booking>h1 {
+        font-size: 18px;
+    }
+
+    .left {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .right {
+        padding: 10px;
+    }
+
+    .right>img {
+        width: 100%;
+    }
+
+    .r>img {
+        width: 268px;
+    }
+
+    .partner {
+        background-color: gainsboro;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .partner>h1 {
+        padding-top: 10px;
+    }
+
+    .hosp {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hosp>img {
+        width: 120px;
+        margin: 3vw;
+    }
+
+    .service {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .each {
+        width: 268px;
+    }
+
+    .each>img {
+        width: 268px;
+    }
+
+    .each>p {
+        position: relative;
+        top: -140px;
+        left: 60px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .quote {
+        width: 20px;
+    }
+
+    .tests {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tests>p {
+        width: 70%;
+        font-size: 12px;
+    }
+
+    .tests>h5 {
+        font-size: 14px;
+    }
+
+    .ques>.r {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    .accordion-body {
+        font-size: 11px;
+    }
+
+    .accordion-button {
+        font-size: 12px;
+    }
+
+    .start {
+        background-image: linear-gradient(rgba(0, 35, 100, 0.8), rgba(0, 35, 100, 0.8)), url('images/nurse2.png');
+        max-width: 500px;
+        height: 600px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        align-items: center;
+        color: white;
+    }
+
+    .start>h1 {
+        font-size: 26px;
+        position: relative;
+        top: 15px;
+    }
+
+    .dataa {
+        width: 250px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .dataa>form {
+        background-color: white;
+        padding: 20px 20px;
+        border-radius: 10px;
+        color: black;
+    }
+
+    .mm {
+        margin: 0;
+    }
+
+    .add {
+        position: relative;
+        margin-top: 20px;
+        height: 10px;
+    }
+
+    .cadd {
+        position: relative;
+        height: 80px;
+        border-right: 2px solid;
+        padding-right: 15px;
+        font-size: 8px;
+        top: 30px;
+    }
+
+    .cadd>h4 {
+        font-size: 14px;
+    }
+
+    .badd {
+        position: relative;
+        top: 30px;
+        padding-left: 15px;
+        font-size: 8px;
+    }
+
+    .badd>h4 {
+        font-size: 14px;
+    }
+
+    .con {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .con>h3 {
+        font-size: 12px;
+    }
+}
